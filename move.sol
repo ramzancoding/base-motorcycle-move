@@ -14,7 +14,7 @@ contract MotorcycleActions {
     event HeadlightToggled(bool state);
     event DistanceTraveled(uint distance);
 
-    // Constructeur pour initialiser l'état de la moto
+    // Constructeur pour initialiser la moto
     constructor() {
         isStarted = false;
         isHeadlightOn = false;

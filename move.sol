@@ -6,12 +6,10 @@
 pragma solidity ^0.8.0;
 
 contract MotorcycleActions {
-    // État de la moto
     bool public isStarted;
     bool public isHeadlightOn;
     uint public distanceTraveled;
 
-    // Événements pour signaler les actions
     event MotorcycleStarted(bool state);
     event HeadlightToggled(bool state);
     event DistanceTraveled(uint distance);

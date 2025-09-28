@@ -41,7 +41,7 @@ contract MotorcycleActions {
         emit DistanceTraveled(randomDistance);
     }
 
-    // Fonction pour obtenir l'état complet de la moto
+    // Fonction pour obtenir l'état complet de la motocycle
     function getMotorcycleStatus() public view returns (string memory) {
         string memory startedStatus = isStarted ? "demarree" : "arretee";
         string memory headlightStatus = isHeadlightOn ? "allume" : "eteint";
